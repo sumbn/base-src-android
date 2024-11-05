@@ -1,4 +1,4 @@
-package vn.sbnt.personnelmanagement.ui.theme
+package vn.sbnt.codebase.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

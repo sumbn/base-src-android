@@ -1,4 +1,4 @@
-package vn.sbnt.personnelmanagement
+package vn.sbnt.codebase
 
 import org.junit.Test
 

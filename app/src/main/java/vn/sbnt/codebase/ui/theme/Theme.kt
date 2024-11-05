@@ -1,4 +1,4 @@
-package vn.sbnt.personnelmanagement.ui.theme
+package vn.sbnt.codebase.ui.theme
 
 import android.app.Activity
 import android.os.Build

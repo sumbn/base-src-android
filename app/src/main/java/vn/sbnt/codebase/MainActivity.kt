@@ -1,4 +1,4 @@
-package vn.sbnt.personnelmanagement
+package vn.sbnt.codebase
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -13,7 +13,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import vn.sbnt.core.navigation.Animation
 import vn.sbnt.core.navigation.Route
-import vn.sbnt.personnelmanagement.ui.theme.PersonnelManagementTheme
+import vn.sbnt.codebase.ui.theme.PersonnelManagementTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "vn.sbnt.personnelmanagement"
+    namespace = "vn.sbnt.codebase"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "vn.sbnt.personnelmanagement"
+        applicationId = "vn.sbnt.basesrc"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
