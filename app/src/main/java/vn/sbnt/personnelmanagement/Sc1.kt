@@ -1,5 +1,6 @@
 package vn.sbnt.personnelmanagement
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -16,11 +17,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
-//@Preview
-//@Composable
-//fun Test(){
-//    Sc1 {  }
-//}
+@Preview
+@Composable
+fun Test(){
+    Sc1 {  }
+}
 
 
 @Composable
@@ -28,7 +29,9 @@ fun Sc1(onButtonClick: () -> Unit ) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(16.dp),
+            .padding(16.dp)
+            .background(color = Color.Gray)
+        ,
         verticalArrangement = Arrangement.SpaceBetween,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
